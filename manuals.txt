@@ -1,0 +1,53 @@
+Task#1
+purchase=int(input("Enter the purchase: "))
+saleTax=5
+countyTax=2.5
+total_sales_tax=saleTax+countyTax
+total_sale=total_sales_tax+purchase
+print("Amount of purchase: ", purchase)
+print("State sale tax: ", saleTax)
+print("County sale tax: ", countyTax)
+print("Total sale tax: ", total_sales_tax)
+print("Total sale: ", total_sale)
+
+Task#2
+charge=int(input("Enter the charge for the food: "))
+tip=(18/100)*charge
+sales_tax=(7/100)*charge
+total=tip+sales_tax
+total_amount=charge+total
+print("Charges: ",charge)
+print("18% of tip: ",tip)
+print("7% of sales_tax: ",sales_tax)
+print("Total amount of meal purchased at restaurant: ", total_amount)
+
+Task#3
+suger=1.5/48
+print("Suger for 1 cookie: " ,suger)
+butter=1/48
+print("Butter for 1 cookie: ",butter)
+flour=2.75/48
+print("Flour for 1 cookie: ",flour)
+cookie=int(input("How many cookies you want to make: "))
+print("No of suger cups: ", suger*cookie)
+print("No of butter cups: ", butter*cookie)
+print("No of flour cups: ", flour*cookie)
+
+Task#4
+male=int(input("Enter numbers of male student: "))
+female=int(input("Enter numbers of female student: "))
+total_students=male+female
+male_perct=(male/total_students)*100
+female_perct=(female/total_students)*100
+print("Total students: ", total_students)
+print("Male percentage: ", male_perct)
+print("Female percentage: ", female_perct)
+
+Task#5
+total_amount=2000*40
+purchase_dealer=(3/100)*total_amount
+total_purchase=total_amount+purchase_dealer
+sale=2000*42.75
+sale_dealer=(3/100)*sale
+total_sale=sale-sale_dealer
+print("it goes to profit : ",total_sale-total_purchase)
